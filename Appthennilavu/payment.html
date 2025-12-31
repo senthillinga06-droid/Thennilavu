@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+      .btn a{
+          text-decoration: none;
+          color: black;
+      }
+      .heart {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  pointer-events: none;
+  animation: floatUp 3s ease-out forwards;
+  opacity: 1;
+  z-index: 9999;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-20px, -200px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.package-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .package-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+  }
+
+.counter-box h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 10px;
+  }
+  .counter-box p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0;
+  }
+
+
+  /* img
+
+ .pic{
+    height: 250px;
+    width: 200px;
+  }
+  .car{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(50px);
+    animation: gallery 50s  linear infinite;
+    cursor: pointer;
+  }
+  .car span{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+   -webkit-box-reflect: below 3.5px linear-gradient(transparent, transparent, rgba(3, 3, 3, 0.2));
+  }
+  .car span img{
+    position: absolute;
+    border: 6px ridge;
+    border-radius: 10px;
+    
+  }
+  @keyframes gallery {
+    0%{
+      transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+      transform: perspective(1000px) rotateY(-360deg);
+    }
+  } */
+
+  
+  .nav-link:hover {
+  color: #ffe0f0 !important;
+  text-decoration: underline;
+}
+
+.navbar-brand:hover {
+  color: #fff0f5 !important;
+}
+
+.story-img {
+    transition: transform 0.5s ease;
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .story-img:hover {
+    transform: scale(1.03);
+  }
+
+  @media (max-width: 768px) {
+    .story-img {
+      height: auto;
+    }
+  }
+
+
+
+  .zoom-bounce {
+  animation: zoomBounce 1s ease-out;
+}
+
+@keyframes zoomBounce {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .display-1 {
+      font-size: 2rem !important;
+      text-align: center;
+    }
+
+    .zoom-bounce {
+      animation: zoomBounce 1s ease-in-out;
+    }
+
+    .col-6.justify-content-start {
+      justify-content: center !important;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .col-md-4 {
+      margin-left: 0% !important;
+      width: 100%;
+    }
+
+    form {
+      padding: 2rem 1rem !important;
+    }
+  }
+
+  /* Optional: smoother zoom effect on mobile */
+  @keyframes zoomBounce {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.03);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+    
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS (required for toggler to work) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body >
+    <div class="container-fluid bg-light bg-opacity-75 ">
+      <!-- Add this to head for Bootstrap (if not already included) -->
+
+<!-- Fixed top navbar -->
+<!-- <nav class="navbar fixed-top" style="background-color: rgb(127, 8, 8);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+    </a>
+    <span style="color: aliceblue;">sample@gmail.com</span>
+
+    <div class="ms-auto d-flex gap-2" style="margin-right: 20px;">
+      <button class="btn bg-secondary" style=" align-items: center;"> <a class="nav-link text-white fw-semibold me-3" style="margin-left: 15px; text-decoration: none;"  href="login.html">Log In</a></button>
+      <button class="btn bg-secondary" style=" text-align: center;"> <a class="nav-link text-white fw-semibold me-3" style="margin-left: 15px; text-decoration: none;" href="index.html">Register</a></button>
+      
+    </div>
+  </div>
+</nav> -->
+<br>
+<!-- Optional content spacing for fixed nav -->
+<!-- Padding space -->
+<div style="height: 80px; "> 
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg shadow-sm " style="background: linear-gradient(to right, #ec3107, #fda101); border-radius: 10px;">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand text-white fw-bold" href="#">
+      <img src="logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top me-2">
+      TheanNilavu
+    </a>
+
+    <!-- Toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link text-white fw-semibold me-3" style="text-decoration: underline;" href="home.php">Home</a>
+        <a class="nav-link text-white fw-semibold me-3" href="login.php">Member Ship</a>
+         <a class="nav-link  text-white fw-semibold me-3"  href="login.php">Members</a>
+        <a class="nav-link text-white fw-semibold me-3" href="login.php">Packages</a>
+        <a class="nav-link text-white fw-semibold me-3" href="login.php">Contact Us</a>
+        <a class="nav-link text-white fw-semibold me-3" href="login.php">Stories</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
+
+
+      <!-- welcome section -->
+<section class="py-5 text-white text-center" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/holding-hand.jpg'); 
+            background-size: cover; 
+            background-position: center;">
+            
+  <div class="container">
+    <div class="row align-items-center">
+    <div class="col-6 justify-content-start d-flex align-items-end mb-5 text:center">
+        <h1 class="display-1 fw-bold zoom-bounce">Welcome! TheanNilavu Matrimony.</h1>
+
+
+       
+        <!-- <p class="lead"> Our TheanNilavu Matrimony. </p> -->
+       
+     
+        <!-- <a href="#packages" class="btn btn-light btn-lg mt-3 " style="justify-content: end;">Learn More</a> -->
+    </div>
+    
+    <!-- <div class="container my-5">
+  <div class="row justify-content-center"> -->
+    
+    <div class="col-md-4" style="margin-left: 15%;">
+  <form id="searchForm" class="p-4 border rounded shadow-sm bg-body bg-opacity-50 border-dark"
+    style="color: #090800; font-weight: bold;">
+    <h3 class="text-center mb-4 fw-bold">Find Your Partner</h3>
+
+    <div class="mb-3">
+      <label for="lookingFor" class="form-label">Looking for</label>
+      <select class="form-select" id="lookingFor">
+        <option selected disabled>Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="age" class="form-label">Age</label>
+      <!-- <input type="number" class="form-control" id="age" placeholder="Enter age"> -->
+       <div >
+      <select name="age" id="age" class="form-select">
+        <option value="" selected disabled>Select Age</option>
+        <option value="18-25">18-25</option>
+        <option value="26-30">26-30</option>
+        <option value="31-35">31-35</option>
+        <option value="36-40">36-40</option>
+        <option value="41-45">41-45</option>
+        <option value="46+">46+</option>
+
+       </select>
+       </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="country" class="form-label">Country</label>
+      <input type="text" class="form-control" id="country" placeholder="Enter country">
+    </div>
+
+    <div class="mb-3">
+      <label for="city" class="form-label">City</label>
+      <input type="text" class="form-control" id="city" placeholder="Enter city">
+    </div>
+
+    <div class="mb-3">
+      <label for="religion" class="form-label">Religion</label>
+      <input type="text" class="form-control" id="religion" placeholder="Enter religion">
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary px-4"><a href="login.html" style="text-decoration: none; color: #f2f2f2;">Search</a></button>
+    </div>
+  </form>
+</div>
+
+<!-- Results -->
+<div class="col-md-7" id="results" style="margin-left: 15%; margin-top: 20px;"></div>
+
+  <!-- </div>
+</div> -->
+
+    </div>
+  </div>
+  
+</section>
+
+<!-- Hero Section -->
+<!-- <section class="py-5 text-white" style="background: linear-gradient(to right, #4e54c8, #8f94fb);">
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold">Welcome to Our Website</h1>
+    <p class="lead">We offer the best services for your needs</p>
+    
+  </div>
+</section> -->
+
+<!-- About Section -->
+<!-- AOS CSS (Add to your <head>) -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- ABOUT US SECTION WITH AOS ANIMATION -->
+<section class="py-5 bg-light" id="about" style="background: linear-gradient(to right, #fdfdfd, #fdfdfd);">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Image with zoom-in animation -->
+      <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1200">
+        <img src="img/112024-house-on-the-cloud.jpeg" class="img-fluid rounded" alt="About Image">
+      </div>
+      
+      <!-- Text with fade animations -->
+      <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+        <h2 class="mb-3">About Us</h2>
+        <p>TheanNilavu Matrimony is a trusted and inclusive matrimonial platform designed to help individuals find their life partners with honesty, respect, and safety. While our roots are inspired by Tamil culture and traditions, we proudly welcome people from all backgrounds, communities, and cultures. This is not just a Tamil-only site — it’s a place for everyone seeking meaningful relationships.</p>
+
+        <h2 class="mt-5 mb-3" data-aos="fade-up" data-aos-delay="200">Our Vision</h2>
+        <p>At TheanNilavu, we don't just create matches — we help build lifelong relationships.
+        We aim to offer a peaceful, secure, and user-friendly space where people can find partners who truly understand their values, preferences, and aspirations.</p>
+
+        <h2 class="mt-5 mb-3" data-aos="fade-up" data-aos-delay="300">Our Mission</h2>
+        <p>We are committed to providing a platform that is safe, respectful, and inclusive for all. Our mission is to connect individuals from diverse backgrounds, fostering relationships based on mutual respect and understanding.</p>
+
+        <h2 class="mt-5 mb-3" data-aos="fade-up" data-aos-delay="400">For Global Users</h2>
+        <p>Whether you're from India, Sri Lanka, Malaysia, Singapore, the UK, the US, Canada, or anywhere in the world — TheanNilavu Matrimony welcomes you. Our platform is created for anyone looking for respectful, value-based relationships in a modern world.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AOS JS (Add before closing  -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+<!-- Packages Section -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+
+<section class="py-5" style="background: linear-gradient(to right, #ec3107, #fda101);">
+  <div class="container">
+    <h2 class="text-center mb-3" data-aos="fade-down" style="color: #fdfdfd;">Our Packages</h2>
+    <p class="text-center mb-5" data-aos="fade-up" style="color: #f2f2f2;">
+      Choose from our affordable and flexible membership packages tailored to meet your preferences and requirements.
+    </p>
+    
+    <div class="row g-4">
+      <!-- Basic Plan -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card package-card h-100 text-center shadow-sm" style="background-color: #4a3d3d; border: 1px solid #090800;">
+          <div class="card-body">
+            <h5 class="card-title text-white">Basic Plan</h5>
+            <h6 class="card-subtitle mb-2" style="color:  #fdfdfd;">$19.99 / month</h6>
+            <p class="card-text text-light">Ideal for individuals getting started. Includes basic profile listing and limited access to matches.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+           <a href="login.html" class="btn w-100 btn-outline-warning" >Choose </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card package-card h-100 text-center shadow-sm" style="background-color: #4a3d3d; border: 2px solid #090800;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:  #fdfdfd;">Premium Plan</h5>
+            <h6 class="card-subtitle mb-2" style="color:  #fdfdfd;">$39.99 / month</h6>
+            <p class="card-text text-light">Gain priority visibility and unlimited access to contact other members. Most popular choice!</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="login.html" class="btn w-100 btn-outline-warning" >Choose </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Elite Plan -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card package-card h-100 text-center shadow-sm" style="background-color: #4a3d3d; border: 1px solid #090800;">
+          <div class="card-body">
+            <h5 class="card-title text-white">Elite Plan</h5>
+            <h6 class="card-subtitle mb-2" style="color:  #fdfdfd;">$59.99 / month</h6>
+            <p class="card-text text-light">Includes dedicated support, profile boost, and personalized matchmaking services.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="login.html" class="btn w-100 btn-outline-warning" >Choose </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card package-card h-100 text-center shadow-sm" style="background-color: #4a3d3d; border: 1px solid #090800;">
+          <div class="card-body">
+            <h5 class="card-title text-white">Basic Plan</h5>
+            <h6 class="card-subtitle mb-2" style="color:  #fdfdfd;">$19.99 / month</h6>
+            <p class="card-text text-light">Ideal for individuals getting started. Includes basic profile listing and limited access to matches.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+           <a href="login.html" class="btn w-100 btn-outline-warning" >Choose </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card package-card h-100 text-center shadow-sm" style="background-color: #4a3d3d; border: 2px solid #090800;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:  #fdfdfd;">Premium Plan</h5>
+            <h6 class="card-subtitle mb-2" style="color:  #fdfdfd;">$39.99 / month</h6>
+            <p class="card-text text-light">Gain priority visibility and unlimited access to contact other members. Most popular choice!</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="login.html" class="btn w-100 btn-outline-warning" >Choose </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Elite Plan -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card package-card h-100 text-center shadow-sm" style="background-color: #4a3d3d; border: 1px solid #090800;">
+          <div class="card-body">
+            <h5 class="card-title text-white">Elite Plan</h5>
+            <h6 class="card-subtitle mb-2" style="color:  #fdfdfd;">$59.99 / month</h6>
+            <p class="card-text text-light">Includes dedicated support, profile boost, and personalized matchmaking services.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="login.html" class="btn w-100 btn-outline-warning" >Choose </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- How It Works Section -->
+<!-- Add AOS CSS in <head> -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<section class="py-5 bg-light text-center" id="how-it-works" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/holding-hand.jpg'); 
+            background-size: cover; 
+            background-position: center;">
+  <div class="container">
+    <h2 class="mb-4 fw-bold" data-aos="fade-down" style="color: #f2f2f2;">How It Works</h2>
+    <div class="row g-4">
+      
+      <!-- Step 1 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title">1. Sign Up</h3>
+            <p class="card-text">Create your free profile in just a few easy steps. Provide basic details like your name, age, religion, and preferences. It only takes a minute to get started on your journey to finding the right life partner.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title">2. Choose a Package</h3>
+            <p class="card-text">Select a membership plan that suits your needs. Whether you're just exploring or ready to connect seriously, our flexible packages offer the right features to help you find your perfect match.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title">3. Enjoy the Service</h3>
+            <p class="card-text">Once you're set up, explore matches, send interests, and connect with genuine profiles. Our platform is designed to offer a smooth, secure, and meaningful matchmaking experience every step of the way.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Happy Stories Section -->
+<!-- AOS Animation CDN -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<section class="py-5 bg-white text-center" id="happy-stories" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/desktop-wallpaper-hindu-wedding-tamil-wedding.jpg'); 
+            background-size: cover; 
+            background-position: center;">
+  <div class="container">
+    <h2 class="mb-5 fw-bold" data-aos="fade-down" style="color: #f2f2f2;">Happy Stories</h2>
+    <br>
+    <div class="row g-5">
+
+      <!-- Story 1 -->
+      <div class="row align-items-center shadow-lg p-4 rounded bg-light" data-aos="fade-up">
+        <div class="col-md-6">
+          <div class="text-start">
+            <h6 class="text-muted">Matched on TheanNilavu Matrimony | Married on March 18, 2024</h6>
+            <p class="card-text mt-3">"We met on TheanNilavu Matrimony in November 2023. From the first conversation, we knew something was special. Our families met in January, and everything just clicked. What started as a simple interest request has now become a lifetime bond. Thank you, TheanNilavu, for helping us find each other!"</p>
+            <h5 class="card-title mt-4">– Ashwin & Meera</h5>
+            <h6><strong>Bride from:</strong> Coimbatore</h6>
+            <h6><strong>Groom from:</strong> Colombo</h6>
+            <h6><strong>Status:</strong> Happily Married</h6>
+          </div>
+          <br>
+          <button class="btn bg-primary " style="margin-right: 75%;"> <a class="nav-link text-white fw-semibold me-3" style="margin-left: 15px; text-decoration: none;"  href="login.html">View More</a></button>
+        </div>
+        <div class="col-md-6" data-aos="zoom-in">
+          <img src="img/1.jpg" class="img-fluid rounded shadow-sm story-img" alt="">
+        </div>
+        
+      </div>
+      
+
+      <!-- Story 2 -->
+      <div class="row align-items-center shadow-lg p-4 rounded bg-light flex-md-row-reverse mt-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-6">
+          <div class="text-start">
+            <h6 class="text-muted">Matched on TheanNilavu | Married on February 11, 2024</h6>
+            <p class="card-text mt-3">"I was hesitant to try online matrimony. But when Arun sent me a request, something felt different. Within weeks, we were laughing, learning, and planning our lives together. Our parents were happy, and so were we. Now, every day starts and ends with gratitude – to TheanNilavu!"</p>
+            <h5 class="card-title mt-4">– Swetha & Arun</h5>
+            <h6><strong>Bride from:</strong> Trichy</h6>
+            <h6><strong>Groom from:</strong> Jaffna</h6>
+            <h6><strong>Status:</strong> Happily Married</h6>
+          </div>
+          <br>
+          <button class="btn bg-primary " style="margin-right: 75%;"> <a class="nav-link text-white fw-semibold me-3" style="margin-left: 15px; text-decoration: none;"  href="login.html">View More</a></button>
+       
+        </div>
+        <div class="col-md-6" data-aos="zoom-in">
+          <img src="img/3.jpg" class="img-fluid rounded shadow-sm story-img" alt="">
+        </div>
+      </div>
+
+      <!-- Story 3 -->
+      <div class="row align-items-center shadow-lg p-4 rounded bg-light mt-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-6">
+          <div class="text-start">
+            <h6 class="text-muted">Matched on TheanNilavu Matrimony | Married on May 21, 2024</h6>
+            <p class="card-text mt-3">“Living in Canada made it tough to meet someone with similar values. But thanks to TheanNilavu, I met Shruthi, who was in Germany at the time. After months of video calls and long conversations, we knew we were meant to be. Today, we’re building a life together in Toronto.”</p>
+            <h5 class="card-title mt-4">– Karthik & Shruthi</h5>
+            <h6><strong>Bride from:</strong> Stuttgart, Germany</h6>
+            <h6><strong>Groom from:</strong> Toronto, Canada</h6>
+            <h6><strong>Status:</strong> Happily Married</h6>
+          </div>
+          <br>
+          <button class="btn bg-primary " style="margin-right: 75%;"> <a class="nav-link text-white fw-semibold me-3" style="margin-left: 15px; text-decoration: none;"  href="login.html">View More</a></button>
+       
+        </div>
+        <div class="col-md-6" data-aos="zoom-in">
+          <img src="img/4.jpg" class="img-fluid rounded shadow-sm story-img" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- AOS init script -->
+
+
+
+
+<!-- Testimonial Section -->
+<section class="py-5 bg-light text-center" id="testimonials">
+  <div class="container">
+    <h2 class="fw-bold mb-4">What Our Clients Say</h2>
+    
+
+    <div class="scrolling-wrapper px-2" id="autoScroll">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card text-center">
+        <img src="img/a.jpg" class="rounded-circle mb-3" alt="">
+        <p class="fst-italic">"Absolutely fantastic experience. The support team is very helpful and quick!"</p>
+        <h5 class="mt-3 fw-semibold">Sarah Williams</h5>
+        <small class="text-muted">Marketing Manager</small>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card text-center">
+        <img src="img/d.webp" class="rounded-circle mb-3" alt="">
+        <p class="fst-italic">"A seamless process from start to finish. I’m truly impressed!"</p>
+        <h5 class="mt-3 fw-semibold">David Kumar</h5>
+        <small class="text-muted">Entrepreneur</small>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card text-center">
+        <img src="img/b.png" class="rounded-circle mb-3" alt="">
+        <p class="fst-italic">"Top-notch quality and excellent service. Highly recommended!"</p>
+        <h5 class="mt-3 fw-semibold">Linda Chen</h5>
+        <small class="text-muted">Freelancer</small>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="testimonial-card text-center">
+        <img src="img/c.webp" class="rounded-circle mb-3" alt="">
+        <p class="fst-italic">"Service beyond expectations. We’ll definitely work again."</p>
+        <h5 class="mt-3 fw-semibold">John Martin</h5>
+        <small class="text-muted">Startup Founder</small>
+      </div>
+
+      <!-- Duplicate testimonials to make scrolling loop -->
+      <div class="testimonial-card text-center">
+        <img src="img/f.webp" class="rounded-circle mb-3" alt="">
+        <p class="fst-italic">"Absolutely fantastic experience. The support team is very helpful and quick!"</p>
+        <h5 class="mt-3 fw-semibold">Sunil Williams</h5>
+        <small class="text-muted">Marketing Manager</small>
+      </div>
+
+      <div class="testimonial-card text-center">
+        <img src="img/e.jpg" class="rounded-circle mb-3" alt="">
+        <p class="fst-italic">"A seamless process from start to finish. I’m truly impressed!"</p>
+        <h5 class="mt-3 fw-semibold">David Kumar</h5>
+        <small class="text-muted">Entrepreneur</small>
+      </div>
+    
+  </div>
+  </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white pt-4 pb-2 mt-5">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-3 mb-3">
+        <img src="logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+      </div>
+
+      <!-- About -->
+      <div class="col-md-3 mb-3">
+        <h5>About Us</h5>
+        <p>We provide top-notch services to help you achieve your goals with ease and satisfaction.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Login</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3 mb-3">
+        <h5>Contact</h5>
+        <p>Email: info@example.com</p>
+        <p>Phone: +94 77 123 4567</p>
+        <p>Address: Colombo, Sri Lanka</p>
+      </div>
+
+    </div>
+
+    <!-- Bottom copyright -->
+    <div class="text-center pt-3 border-top mt-3">
+      <small>&copy; 2025 YourCompany. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+<!-- Add AOS JS before </body> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+ <script>
+  document.addEventListener("mousemove", function(e) {
+  const heart = document.createElement("div");
+  heart.className = "heart";
+  heart.innerHTML = "❤️";
+
+  // Random left/right drift
+  const driftX = Math.random() * 40 - 20; // -20 to +20px
+  const scale = 1 + Math.random(); // Scale 1–2
+  const duration = 2 + Math.random() * 2; // 2–4s duration
+
+  heart.style.left = e.pageX + "px";
+  heart.style.top = e.pageY + "px";
+  heart.style.transform = `translate(0, 0) scale(${scale})`;
+  heart.style.animationDuration = `${duration}s`;
+
+  document.body.appendChild(heart);
+
+  setTimeout(() => {
+    heart.remove();
+  }, duration * 1000);
+});
+</script> 
+
+<script>
+  function animateCounter(counter) {
+    const target = +counter.getAttribute('data-count');
+    let count = 0;
+    const speed = 20;
+    const increment = Math.ceil(target / 100);
+
+    const updateCount = () => {
+      count += increment;
+      if (count >= target) {
+        counter.innerText = target.toLocaleString();
+      } else {
+        counter.innerText = count.toLocaleString();
+        requestAnimationFrame(updateCount);
+      }
+    };
+    updateCount();
+  }
+
+  function initCountersOnScroll() {
+    const counters = document.querySelectorAll('.counter');
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.7 });
+
+    counters.forEach(counter => observer.observe(counter));
+  }
+
+  document.addEventListener('DOMContentLoaded', initCountersOnScroll);
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script> 
+
+<!-- <script>
+  
+  const profiles = [
+    { name: "Arun Kumar", gender: "Male", age: 28, country: "Sri Lanka", city: "Colombo", religion: "Hindu" },
+    { name: "Meera", gender: "Female", age: 25, country: "India", city: "Chennai", religion: "Christian" },
+    { name: "Rajesh", gender: "Male", age: 30, country: "Sri Lanka", city: "Kandy", religion: "Buddhist" },
+  ];
+
+  document.querySelector("form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    // Get form values
+    const lookingFor = document.getElementById("lookingFor").value;
+    const age = parseInt(document.getElementById("age").value);
+    const country = document.getElementById("country").value.toLowerCase();
+    const city = document.getElementById("city").value.toLowerCase();
+    const religion = document.getElementById("religion").value.toLowerCase();
+
+    // Filter profiles
+    const results = profiles.filter(p => {
+      return (
+        (lookingFor === "Select" || p.gender === lookingFor) &&
+        (!age || p.age === age) &&
+        (!country || p.country.toLowerCase() === country) &&
+        (!city || p.city.toLowerCase() === city) &&
+        (!religion || p.religion.toLowerCase() === religion)
+      );
+    });
+
+    // Show results
+    const resultsDiv = document.getElementById("results");
+    resultsDiv.innerHTML = "";
+    if (results.length > 0) {
+      results.forEach(p => {
+        resultsDiv.innerHTML += `
+          <div class="col-md-4 mb-3">
+            <div class="card p-3 shadow-sm">
+              <h5>${p.name}</h5>
+              <p>Gender: ${p.gender}</p>
+              <p>Age: ${p.age}</p>
+              <p>${p.city}, ${p.country}</p>
+              <p>Religion: ${p.religion}</p>
+            </div>
+          </div>
+        `;
+      });
+    } else {
+      resultsDiv.innerHTML = `<p class="text-danger">No matches found</p>`;
+    }
+  });
+</script> -->
+
+
+
+</body>
+</html>
+   

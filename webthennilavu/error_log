@@ -1,0 +1,277 @@
+[10-Nov-2025 07:25:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/index.php:6
+Stack trace:
+#0 /home10/thennilavu/public_html/index.php(6): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/index.php on line 6
+[10-Nov-2025 07:25:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/index.php:6
+Stack trace:
+#0 /home10/thennilavu/public_html/index.php(6): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/index.php on line 6
+[10-Nov-2025 07:25:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/index.php:6
+Stack trace:
+#0 /home10/thennilavu/public_html/index.php(6): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/index.php on line 6
+[10-Nov-2025 07:25:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/index.php:6
+Stack trace:
+#0 /home10/thennilavu/public_html/index.php(6): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/index.php on line 6
+[10-Nov-2025 07:25:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/index.php:6
+Stack trace:
+#0 /home10/thennilavu/public_html/index.php(6): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/index.php on line 6
+[10-Nov-2025 07:25:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/index.php:6
+Stack trace:
+#0 /home10/thennilavu/public_html/index.php(6): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/index.php on line 6
+[10-Nov-2025 07:30:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/login.php:3
+Stack trace:
+#0 /home10/thennilavu/public_html/login.php(3): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/login.php on line 3
+[10-Nov-2025 07:30:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/login.php:3
+Stack trace:
+#0 /home10/thennilavu/public_html/login.php(3): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/login.php on line 3
+[10-Nov-2025 08:06:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/mem.php:32
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(32): mysqli->__construct('127.0.0.1', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 32
+[10-Nov-2025 08:07:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/mem.php:32
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(32): mysqli->__construct('127.0.0.1', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 32
+[18-Nov-2025 11:02:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'previous_marital_status' in 'field list' in /home10/thennilavu/public_html/profile.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/profile.php(139): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/profile.php on line 139
+[18-Nov-2025 11:08:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'previous_marital_status' in 'field list' in /home10/thennilavu/public_html/profile.php:140
+Stack trace:
+#0 /home10/thennilavu/public_html/profile.php(140): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/profile.php on line 140
+[19-Nov-2025 06:12:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:12:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:12:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:12:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:13:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:14:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:14:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:14:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:14:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:24:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:24:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:24:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:25:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 06:45:33 UTC] Residents.php Debug - User ID: 12, Package Name: Premium, Profile Views Limit: 30
+[19-Nov-2025 08:27:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'members.caste' in 'where clause' in /home10/thennilavu/public_html/mem.php:448
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(448): mysqli->prepare('SELECT COUNT(DI...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 448
+[19-Nov-2025 08:27:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'members.caste' in 'where clause' in /home10/thennilavu/public_html/mem.php:448
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(448): mysqli->prepare('SELECT COUNT(DI...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 448
+[19-Nov-2025 08:50:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 08:50:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 08:54:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home10/thennilavu/public_html/mem.php:139
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(139): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 139
+[19-Nov-2025 08:57:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/mem.php:5
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(5): mysqli->__construct('localhost', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 5
+[19-Nov-2025 08:59:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/mem.php:32
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(32): mysqli->__construct('127.0.0.1', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 32
+[19-Nov-2025 09:00:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home10/thennilavu/public_html/mem.php:32
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(32): mysqli->__construct('127.0.0.1', 'root', '', 'matrimony')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 32
+[25-Nov-2025 09:08:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: FUNCTION thennilavu_thennilavu.find_common_substring does not exist in /home10/thennilavu/public_html/mem.php:164
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(164): mysqli->prepare('SELECT members....')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 164
+[25-Nov-2025 09:08:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: FUNCTION thennilavu_thennilavu.find_common_substring does not exist in /home10/thennilavu/public_html/mem.php:164
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(164): mysqli->prepare('SELECT members....')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 164
+[25-Nov-2025 09:09:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: FUNCTION thennilavu_thennilavu.find_common_substring does not exist in /home10/thennilavu/public_html/mem.php:164
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(164): mysqli->prepare('SELECT members....')
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 164
+[25-Nov-2025 10:25:15 UTC] PHP Parse error:  Unclosed '{' on line 98 in /home10/thennilavu/public_html/mem.php on line 4846
+[25-Nov-2025 10:25:43 UTC] PHP Parse error:  Unclosed '{' on line 98 in /home10/thennilavu/public_html/mem.php on line 4846
+[25-Nov-2025 15:16:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home10/thennilavu/public_html/mem.php:208
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(208): mysqli_stmt->bind_param('issddii', 45, 'Female', 'Hindu', 170, 180, 'No', 'No', 23, 30)
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 208
+[25-Nov-2025 15:17:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home10/thennilavu/public_html/mem.php:208
+Stack trace:
+#0 /home10/thennilavu/public_html/mem.php(208): mysqli_stmt->bind_param('issddii', 45, 'Female', 'Hindu', 170, 180, 'No', 'No', 23, 30)
+#1 {main}
+  thrown in /home10/thennilavu/public_html/mem.php on line 208
+[27-Nov-2025 06:10:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home10/thennilavu/public_html/profile.php on line 843
+[27-Nov-2025 06:10:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home10/thennilavu/public_html/profile.php on line 843
+[02-Dec-2025 03:59:58 UTC] PHP Warning:  Undefined variable $result in /home10/thennilavu/webthennilavu.lk/story.php on line 1653
+[02-Dec-2025 04:00:05 UTC] PHP Warning:  Undefined variable $result in /home10/thennilavu/webthennilavu.lk/story.php on line 1653
+[02-Dec-2025 04:03:32 UTC] PHP Warning:  Undefined variable $result in /home10/thennilavu/webthennilavu.lk/story.php on line 1653
+[02-Dec-2025 04:56:01 UTC] PHP Parse error:  Unclosed '{' on line 982 in /home10/thennilavu/webthennilavu.lk/contact.php on line 1422
+[02-Dec-2025 06:26:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:63
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(63): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 63
+[02-Dec-2025 06:26:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:63
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(63): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 63
+[02-Dec-2025 06:26:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:63
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(63): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 63
+[02-Dec-2025 06:26:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:63
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(63): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 63
+[02-Dec-2025 06:26:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:65
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(65): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 65
+[02-Dec-2025 06:27:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:65
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(65): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 65
+[02-Dec-2025 06:27:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:65
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(65): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 65
+[02-Dec-2025 06:27:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:65
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(65): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 65
+[02-Dec-2025 06:27:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:65
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(65): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 65
+[02-Dec-2025 06:27:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:65
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(65): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 65
+[02-Dec-2025 06:27:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:65
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(65): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 65
+[02-Dec-2025 06:28:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:86
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(86): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 86
+[02-Dec-2025 06:28:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:86
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(86): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 86
+[02-Dec-2025 06:28:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:86
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(86): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 86
+[02-Dec-2025 06:37:22 UTC] PHP Warning:  Undefined variable $reviews_result in /home10/thennilavu/webthennilavu.lk/story.php on line 1731
+[02-Dec-2025 06:37:42 UTC] PHP Warning:  Undefined variable $reviews_result in /home10/thennilavu/webthennilavu.lk/story.php on line 1731
+[02-Dec-2025 06:37:59 UTC] PHP Warning:  Undefined variable $reviews_result in /home10/thennilavu/webthennilavu.lk/story.php on line 1731
+[02-Dec-2025 06:38:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'order clause' in /home10/thennilavu/webthennilavu.lk/story.php:86
+Stack trace:
+#0 /home10/thennilavu/webthennilavu.lk/story.php(86): mysqli->query('SELECT * FROM r...')
+#1 {main}
+  thrown in /home10/thennilavu/webthennilavu.lk/story.php on line 86

@@ -1,0 +1,35 @@
+[26-Sep-2025 08:56:41 Europe/Berlin] PHPMailer not found (vendor/autoload.php or PHPMailer/src missing)
+[26-Sep-2025 08:57:11 Europe/Berlin] PHPMailer not found (vendor/autoload.php or PHPMailer/src missing)
+[26-Sep-2025 09:01:05 Europe/Berlin] PHPMailer not found (vendor/autoload.php or PHPMailer/src missing)
+[26-Sep-2025 09:01:19 Europe/Berlin] PHPMailer not found (vendor/autoload.php or PHPMailer/src missing)
+[26-Sep-2025 09:02:20 Europe/Berlin] PHPMailer not found (vendor/autoload.php or PHPMailer/src missing)
+[26-Sep-2025 09:03:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\mer\mer\mer\thennilavu-main\admin\call-management.php:87
+Stack trace:
+#0 C:\xampp\htdocs\mer\mer\mer\thennilavu-main\admin\call-management.php(188): send_email_to_staff(Object(mysqli), 'New Scheduled C...', '<p>A new call h...', NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\mer\mer\mer\thennilavu-main\admin\call-management.php on line 87
+[06-Oct-2025 11:07:13 Europe/Berlin] PHP Warning:  require_once(db_connection.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connection.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:16 Europe/Berlin] PHP Warning:  require_once(db_connection.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connection.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:28 Europe/Berlin] PHP Warning:  require_once(db_connection.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connection.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:32 Europe/Berlin] PHP Warning:  require_once(db_connection.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connection.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:37 Europe/Berlin] PHP Warning:  require_once(db_connection.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6
+[06-Oct-2025 11:07:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connection.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\mer\thennilavu-main\admin\member_actions.php on line 6

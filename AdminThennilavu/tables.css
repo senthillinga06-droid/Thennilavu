@@ -1,0 +1,83 @@
+/* Table Styles */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.data-table th, .data-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.data-table th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table tr:hover {
+  background: #f3f6fd;
+}
+
+/* Table Action Buttons */
+.popup-btn, .publish-btn, .delete-btn {
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  margin-right: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.popup-btn {
+  background: #e0e7ff;
+  color: #2563eb;
+}
+
+.publish-btn {
+  background: #bbf7d0;
+  color: #059669;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.popup-btn:hover {
+  background: #c7d2fe;
+  color: #1d4ed8;
+}
+
+.publish-btn:hover {
+  background: #a7f3d0;
+  color: #047857;
+}
+
+.delete-btn:hover {
+  background: #fecaca;
+  color: #b91c1c;
+}
+
+@media (max-width: 900px) {
+  .data-table th, .data-table td {
+    padding: 8px 4px;
+    font-size: 0.95rem;
+  }
+  
+  .popup-btn, .publish-btn, .delete-btn {
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    margin-right: 4px;
+  }
+}

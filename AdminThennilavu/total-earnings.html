@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Total Earnings</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="sidebar.css"/>
+  <link rel="stylesheet" href="maincontent.css"/>
+  <link rel="stylesheet" href="tables.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <div class="logo-circle">Logo</div>
+    <nav class="main-menu">
+      <a href="#" class="logout">Logout</a>
+    </nav>
+    <div class="user-info" id="userInfo">
+      <span id="userDisplay"></span>
+    </div>
+  </header>
+
+  <div class="dashboard-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="matrimony-name">Matrimony Name</div>
+      <ul class="sidebar-menu">
+                <li><a href="index.php" class="sidebar-link"><i class="fas fa-home"></i> Dashboard</a></li>
+
+        <li><a href="members.php" class="sidebar-link active">Manage members</a></li>
+        <li><a href="call-management.php" class="sidebar-link">Call management</a></li>
+        <li><a href="user-message-management.php" class="sidebar-link">User message management</a></li>
+        <li><a href="review-management.php" class="sidebar-link">Review management</a></li>
+        <li><a href="transaction-management.php" class="sidebar-link">Transaction management</a></li>
+        <li><a href="packages-management.php" class="sidebar-link">Packages management</a></li>
+        <li><a href="blog-management.php" class="sidebar-link">Blog management</a></li>
+        <li><a href="total-earnings.php" class="sidebar-link">Total earnings</a></li>
+        <li><a id="staffLink" href="staff.php" class="sidebar-link">Staff management</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Top Action Buttons -->
+      <div class="top-actions">
+        <button class="action-btn">
+          <i class="fas fa-download"></i>
+          Export Report
+        </button>
+        <button class="action-btn secondary">
+          <i class="fas fa-file-pdf"></i>
+          Download PDF
+        </button>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search earnings data"/>
+      </div>
+
+      <!-- Earnings Overview -->
+      <div class="content-section">
+        <h2>Earnings Overview</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="stat-info">
+              <h3>Total Revenue</h3>
+              <p class="stat-number">$547,890</p>
+              <span class="stat-change positive">
+                <i class="fas fa-arrow-up"></i>
+                18.5%
+              </span>
+            </div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="stat-info">
+              <h3>Monthly Average</h3>
+              <p class="stat-number">$45,657</p>
+              <span class="stat-change positive">
+                <i class="fas fa-arrow-up"></i>
+                12.3%
+              </span>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+
+      <!-- Revenue Charts -->
+      <div class="content-section">
+        <h2>Revenue Analytics</h2>
+        <div class="charts-grid">
+          <div class="chart-card">
+            <h3>Monthly Revenue Trend</h3>
+            <canvas id="monthlyChart" width="400" height="200"></canvas>
+          </div>
+          <div class="chart-card">
+            <h3>Package Revenue Distribution</h3>
+            <canvas id="packageChart" width="400" height="200"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Revenue Breakdown by Package -->
+      <div class="content-section">
+        <h2>Revenue by Package</h2>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Package Name</th>
+              <th>Subscribers</th>
+              <th>Monthly Revenue</th>
+              <th>Total Revenue</th>
+              <th>Growth</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="package-info">
+                  <span class="package-name">Premium Plan</span>
+                  <span class="package-description">Most popular package</span>
+                </div>
+              </td>
+              <td>1,247</td>
+              <td class="amount">$99,680</td>
+              <td class="amount">$598,080</td>
+              <td>
+                <span class="growth-badge positive">
+                  <i class="fas fa-arrow-up"></i>
+                  15.2%
+                </span>
+              </td>
+              <td>
+                <div class="action-buttons">
+                  <button class="view-btn" title="View Details">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="package-info">
+                  <span class="package-name">Gold Plan</span>
+                  <span class="package-description">High-value customers</span>
+                </div>
+              </td>
+              <td>856</td>
+              <td class="amount">$128,400</td>
+              <td class="amount">$770,400</td>
+              <td>
+                <span class="growth-badge positive">
+                  <i class="fas fa-arrow-up"></i>
+                  22.8%
+                </span>
+              </td>
+              <td>
+                <div class="action-buttons">
+                  <button class="view-btn" title="View Details">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="package-info">
+                  <span class="package-name">Platinum Plan</span>
+                  <span class="package-description">Premium service</span>
+                </div>
+              </td>
+              <td>423</td>
+              <td class="amount">$126,900</td>
+              <td class="amount">$761,400</td>
+              <td>
+                <span class="growth-badge positive">
+                  <i class="fas fa-arrow-up"></i>
+                  18.5%
+                </span>
+              </td>
+              <td>
+                <div class="action-buttons">
+                  <button class="view-btn" title="View Details">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="package-info">
+                  <span class="package-name">Basic Plan</span>
+                  <span class="package-description">Entry level</span>
+                </div>
+              </td>
+              <td>1,156</td>
+              <td class="amount">$34,680</td>
+              <td class="amount">$208,080</td>
+              <td>
+                <span class="growth-badge negative">
+                  <i class="fas fa-arrow-down"></i>
+                  3.2%
+                </span>
+              </td>
+              <td>
+                <div class="action-buttons">
+                  <button class="view-btn" title="View Details">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Recent Transactions -->
+      <div class="content-section">
+        <h2>Recent High-Value Transactions</h2>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Transaction ID</th>
+              <th>Member Name</th>
+              <th>Package</th>
+              <th>Amount</th>
+              <th>Date</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#TXN001</td>
+              <td>John Smith</td>
+              <td>Platinum Plan</td>
+              <td class="amount">$299.99</td>
+              <td>2024-06-01 14:30</td>
+              <td><span class="status-badge success">Completed</span></td>
+            </tr>
+            <tr>
+              <td>#TXN002</td>
+              <td>Sarah Johnson</td>
+              <td>Gold Plan</td>
+              <td class="amount">$149.99</td>
+              <td>2024-06-01 13:45</td>
+              <td><span class="status-badge success">Completed</span></td>
+            </tr>
+            <tr>
+              <td>#TXN003</td>
+              <td>Mike Wilson</td>
+              <td>Premium Plan</td>
+              <td class="amount">$79.99</td>
+              <td>2024-06-01 12:20</td>
+              <td><span class="status-badge success">Completed</span></td>
+            </tr>
+            <tr>
+              <td>#TXN004</td>
+              <td>Emma Davis</td>
+              <td>Platinum Plan</td>
+              <td class="amount">$299.99</td>
+              <td>2024-06-01 11:15</td>
+              <td><span class="status-badge success">Completed</span></td>
+            </tr>
+            <tr>
+              <td>#TXN005</td>
+              <td>David Brown</td>
+              <td>Gold Plan</td>
+              <td class="amount">$149.99</td>
+              <td>2024-06-01 10:30</td>
+              <td><span class="status-badge success">Completed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Earnings Filters -->
+      <div class="content-section">
+        <h2>Filter Earnings Data</h2>
+        <div class="filter-form">
+          <div class="form-row">
+            <div class="form-column">
+              <div class="form-group">
+                <label>Date Range</label>
+                <select>
+                  <option value="all">All Time</option>
+                  <option value="today">Today</option>
+                  <option value="week">This Week</option>
+                  <option value="month">This Month</option>
+                  <option value="quarter">This Quarter</option>
+                  <option value="year">This Year</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-column">
+              <div class="form-group">
+                <label>Package Type</label>
+                <select>
+                  <option value="all">All Packages</option>
+                  <option value="basic">Basic Plan</option>
+                  <option value="premium">Premium Plan</option>
+                  <option value="gold">Gold Plan</option>
+                  <option value="platinum">Platinum Plan</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-column">
+              <div class="form-group">
+                <label>Revenue Range</label>
+                <select>
+                  <option value="all">All Revenue</option>
+                  <option value="low">$0 - $10K</option>
+                  <option value="medium">$10K - $50K</option>
+                  <option value="high">$50K+</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="action-btn">Apply Filters</button>
+            <button type="button" class="action-btn secondary">Clear Filters</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Check authentication on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      const isLoggedIn = localStorage.getItem('isLoggedIn');
+      const userType = localStorage.getItem('userType');
+      const username = localStorage.getItem('username');
+      
+      if (!isLoggedIn) {
+  window.location.href = 'login.php';
+        return;
+      }
+      
+      // Display user info
+      if (username && userType) {
+        console.log(`Welcome ${username} (${userType})`);
+        const userDisplay = document.getElementById('userDisplay');
+        if (userDisplay) {
+          userDisplay.textContent = `${userType.toUpperCase()}`;
+        }
+      }
+      
+      // Force update user info
+      forceUpdateUserInfo();
+    });
+    
+
+  </script>
+
+  <script>
+    // Monthly Revenue Chart
+    const monthlyCtx = document.getElementById('monthlyChart').getContext('2d');
+    new Chart(monthlyCtx, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+        datasets: [{
+          label: 'Revenue',
+          data: [42000, 45000, 48000, 52000, 49000, 54789],
+          borderColor: '#2563eb',
+          backgroundColor: 'rgba(37, 99, 235, 0.1)',
+          tension: 0.4,
+          fill: true
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            display: false
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: {
+              callback: function(value) {
+                return '$' + value.toLocaleString();
+              }
+            }
+          }
+        }
+      }
+    });
+
+    // Package Revenue Chart
+    const packageCtx = document.getElementById('packageChart').getContext('2d');
+    new Chart(packageCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Premium', 'Gold', 'Platinum', 'Basic'],
+        datasets: [{
+          data: [99680, 128400, 126900, 34680],
+          backgroundColor: [
+            '#2563eb',
+            '#f59e0b',
+            '#8b5cf6',
+            '#10b981'
+          ]
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'bottom'
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html> 

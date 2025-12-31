@@ -1,0 +1,221 @@
+{"type":"login","time":"2025-12-16 09:29:58","staff_id":9,"name":"lingajan","role":"staff","ip":"175.157.31.233","browser":"Chrome","version":"143.0.0.0","engine":"Blink \/ WebKit","device_type":"Desktop","device_model":"X64","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","device_name":"X64","location":"9.6908691,80.0258481","location_text":null}
+{"type":"login","time":"2025-12-16 09:33:23","staff_id":9,"name":"lingajan","role":"staff","ip":"175.157.31.233","browser":"Chrome","version":"142.0.0.0","engine":"Blink \/ WebKit","device_type":"Mobile","device_model":null,"device":"Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/142.0.0.0 Mobile Safari\/537.36","device_name":null,"location":"9.6908718,80.0258496","location_text":"Thirunelvely, Jaffna, Jaffna District, Northern Province, 40000, Sri Lanka"}
+{"type":"logout","staff_id":9,"time":"2025-12-16T09:33:44+00:00"}
+{"type":"login","time":"2025-12-16 09:33:50","staff_id":9,"name":"lingajan","role":"staff","ip":"175.157.31.233","browser":"Chrome","version":"143.0.0.0","engine":"Blink \/ WebKit","device_type":"Desktop","device_model":"X64","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","device_name":"X64","location":"6.8452352,79.8851072","location_text":"Attidiya Road, Bellanthara Junction, Bellanthara, Bellanvila, Colombo District, Western Province, 10290, Sri Lanka"}
+{"type":"login","time":"2025-12-16 11:18:49","staff_id":9,"name":"lingajan","role":"staff","ip":"175.157.31.233","browser":"Chrome","version":"142.0.0.0","engine":"Blink \/ WebKit","device_type":"Mobile","device_model":null,"device":"Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/142.0.0.0 Mobile Safari\/537.36","device_name":null,"location":"9.6908676,80.0258468","location_text":null}
+{"type":"login","time":"2025-12-16 11:19:20","staff_id":7,"name":"lingajan","role":"admin","ip":"175.157.31.233","browser":"Chrome","version":"143.0.0.0","engine":"Blink \/ WebKit","device_type":"Desktop","device_model":"X64","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","device_name":"X64","location":"6.8452352,79.8851072","location_text":"Attidiya Road, Bellanthara Junction, Bellanthara, Bellanvila, Colombo District, Western Province, 10290, Sri Lanka"}
+{"type":"login","time":"2025-12-16 11:39:01","staff_id":9,"name":"lingajan","role":"staff","ip":"175.157.31.233","browser":"Chrome","version":"143.0.0.0","engine":"Blink \/ WebKit","device_type":"Desktop","device_model":"X64","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","device_name":"X64","location":"6.8452352,79.8851072","location_text":null}
+{"type":"login","time":"2025-12-16 11:43:38","staff_id":9,"name":"lingajan","role":"staff","ip":"175.157.31.233","browser":"Chrome","version":"143.0.0.0","engine":"Blink \/ WebKit","device_type":"Desktop","device_model":"X64","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","device_name":"X64","location":"6.8452352,79.8851072","location_text":"Attidiya Road, Bellanthara Junction, Bellanthara, Bellanvila, Colombo District, Western Province, 10290, Sri Lanka"}
+{"type":"logout","staff_id":9,"time":"2025-12-16T11:43:46+00:00"}
+{"type":"login","time":"2025-12-16 11:44:01","staff_id":7,"name":"lingajan","role":"admin","ip":"175.157.31.233","browser":"Chrome","version":"143.0.0.0","engine":"Blink \/ WebKit","device_type":"Desktop","device_model":"X64","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","device_name":"X64","location":"6.8452352,79.8851072","location_text":"Attidiya Road, Bellanthara Junction, Bellanthara, Bellanvila, Colombo District, Western Province, 10290, Sri Lanka"}
+{"type":"login_request","time":"2025-12-17 06:18:38","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":1,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 06:19:08","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":2,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 06:19:46","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":3,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 06:19:58","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":4,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 06:20:03","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":5,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 06:21:14","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":6,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 06:21:29","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":7,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 06:21:33","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":8,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 06:21:57","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":9,"status":"pending"}
+{"type":"login","time":"2025-12-17 06:25:07","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"approve_login","request_id":9,"approved_by":7,"time":"2025-12-17T06:33:52+00:00"}
+{"type":"login","time":"2025-12-17 06:33:54","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"approve_login","request_id":8,"approved_by":7,"time":"2025-12-17T06:33:59+00:00"}
+{"type":"logout","staff_id":7,"time":"2025-12-17T06:44:37+00:00"}
+{"type":"login","time":"2025-12-17 06:44:45","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login_request","time":"2025-12-17 06:46:03","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":10,"status":"pending"}
+{"type":"approve_login","request_id":10,"approved_by":7,"time":"2025-12-17T06:46:21+00:00"}
+{"type":"login","time":"2025-12-17 06:46:22","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T06:52:00+00:00"}
+{"type":"login_request","time":"2025-12-17 06:52:14","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":11,"status":"pending"}
+{"type":"approve_login","request_id":11,"approved_by":7,"time":"2025-12-17T06:52:24+00:00"}
+{"type":"login","time":"2025-12-17 06:52:27","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T06:52:45+00:00"}
+{"type":"login_request","time":"2025-12-17 06:52:57","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":12,"status":"pending"}
+{"type":"login","time":"2025-12-17 07:38:03","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"approve_login","request_id":12,"approved_by":7,"time":"2025-12-17T07:38:09+00:00"}
+{"type":"login","time":"2025-12-17 07:38:10","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T07:46:28+00:00"}
+{"type":"login_request","time":"2025-12-17 07:46:38","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":1,"status":"pending"}
+{"type":"approve_login","request_id":1,"approved_by":7,"time":"2025-12-17T07:46:58+00:00"}
+{"type":"login","time":"2025-12-17 07:47:01","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T07:47:19+00:00"}
+{"type":"login","time":"2025-12-17 07:47:28","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","auto_ip":true}
+{"type":"logout","staff_id":9,"time":"2025-12-17T07:48:16+00:00"}
+{"type":"login_request","time":"2025-12-17 07:48:28","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":2,"status":"pending"}
+{"type":"approve_login","request_id":2,"approved_by":7,"time":"2025-12-17T07:48:45+00:00"}
+{"type":"login","time":"2025-12-17 07:48:47","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"login_request","time":"2025-12-17 07:49:42","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":3,"status":"pending"}
+{"type":"approve_login","request_id":3,"approved_by":7,"time":"2025-12-17T07:49:52+00:00"}
+{"type":"login","time":"2025-12-17 07:49:52","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"login","time":"2025-12-17 07:50:26","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","auto_ip":true}
+{"type":"logout","staff_id":9,"time":"2025-12-17T07:55:49+00:00"}
+{"type":"login_request","time":"2025-12-17 07:55:56","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":4,"status":"pending"}
+{"type":"approve_login","request_id":4,"approved_by":7,"time":"2025-12-17T07:56:08+00:00"}
+{"type":"login","time":"2025-12-17 07:56:11","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"login_request","time":"2025-12-17 08:02:50","staff_id":9,"name":"lingajan","ip":"175.157.85.114","device":"Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/142.0.0.0 Mobile Safari\/537.36","request_id":5,"status":"pending"}
+{"type":"approve_login","request_id":5,"approved_by":7,"time":"2025-12-17T08:03:07+00:00"}
+{"type":"login","time":"2025-12-17 08:03:09","staff_id":9,"name":"lingajan","ip":"175.157.85.114","device":"Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/142.0.0.0 Mobile Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T08:03:52+00:00"}
+{"type":"login","time":"2025-12-17 08:04:13","staff_id":9,"name":"lingajan","ip":"175.157.85.114","device":"Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/142.0.0.0 Mobile Safari\/537.36","status":"approved","auto_ip":true}
+{"type":"logout","staff_id":9,"time":"2025-12-17T08:05:32+00:00"}
+{"type":"login_request","time":"2025-12-17 08:05:47","staff_id":9,"name":"lingajan","ip":"175.157.85.114","device":"Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/142.0.0.0 Mobile Safari\/537.36","request_id":6,"status":"pending"}
+{"type":"approve_login","request_id":6,"approved_by":7,"time":"2025-12-17T08:06:18+00:00"}
+{"type":"login","time":"2025-12-17 08:06:20","staff_id":9,"name":"lingajan","ip":"175.157.85.114","device":"Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/142.0.0.0 Mobile Safari\/537.36","status":"approved"}
+{"type":"login_request","time":"2025-12-17 08:11:40","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":7,"status":"pending"}
+{"type":"approve_login","request_id":7,"approved_by":7,"time":"2025-12-17T08:11:50+00:00"}
+{"type":"login","time":"2025-12-17 08:11:53","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T08:27:13+00:00"}
+{"type":"login_request","time":"2025-12-17 08:27:24","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":8,"status":"pending"}
+{"type":"approve_login","request_id":8,"approved_by":7,"time":"2025-12-17T08:27:34+00:00"}
+{"type":"login","time":"2025-12-17 08:27:39","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T08:28:49+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T08:36:58+00:00"}
+{"type":"login_request","time":"2025-12-17 08:37:17","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":9,"status":"pending"}
+{"type":"approve_login","request_id":9,"approved_by":7,"time":"2025-12-17T08:37:51+00:00"}
+{"type":"login","time":"2025-12-17 08:37:55","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"approve_login","request_id":9,"approved_by":7,"time":"2025-12-17T08:41:47+00:00"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T08:42:10+00:00"}
+{"type":"login_request","time":"2025-12-17 08:45:51","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":10,"status":"pending"}
+{"type":"approve_login","request_id":10,"approved_by":7,"time":"2025-12-17T08:52:57+00:00"}
+{"type":"login","time":"2025-12-17 08:52:59","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T08:53:50+00:00"}
+{"type":"login_request","time":"2025-12-17 08:54:07","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":11,"status":"pending"}
+{"type":"approve_login","request_id":11,"approved_by":7,"time":"2025-12-17T08:54:24+00:00"}
+{"type":"login","time":"2025-12-17 08:54:27","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T08:54:49+00:00"}
+{"type":"login_request","time":"2025-12-17 08:55:53","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":12,"status":"pending"}
+{"type":"approve_login","request_id":12,"approved_by":7,"time":"2025-12-17T08:56:41+00:00"}
+{"type":"login","time":"2025-12-17 08:56:47","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T08:56:57+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T08:57:07+00:00"}
+{"type":"login_request","time":"2025-12-17 08:57:16","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":13,"status":"pending"}
+{"type":"approve_login","request_id":13,"approved_by":7,"time":"2025-12-17T08:57:46+00:00"}
+{"type":"login_request","time":"2025-12-17 08:58:09","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":14,"status":"pending"}
+{"type":"approve_login","request_id":14,"approved_by":7,"time":"2025-12-17T08:58:27+00:00"}
+{"type":"login","time":"2025-12-17 08:58:33","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T09:02:55+00:00"}
+{"type":"login_request","time":"2025-12-17 09:03:09","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":15,"status":"pending"}
+{"type":"approve_login","request_id":15,"approved_by":7,"time":"2025-12-17T09:03:19+00:00"}
+{"type":"login","time":"2025-12-17 09:03:20","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T09:03:27+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T09:03:33+00:00"}
+{"type":"login_request","time":"2025-12-17 09:03:45","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":16,"status":"pending"}
+{"type":"approve_login_blocked","request_id":16,"ip":"175.157.139.159","attempted_by":7,"time":"2025-12-17T09:03:59+00:00"}
+{"type":"login_request","time":"2025-12-17 09:04:25","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":17,"status":"pending"}
+{"type":"approve_login_blocked","request_id":17,"ip":"175.157.139.159","attempted_by":7,"time":"2025-12-17T09:04:57+00:00"}
+{"type":"login_request","time":"2025-12-17 09:05:51","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":18,"status":"pending"}
+{"type":"approve_login","request_id":18,"approved_by":7,"time":"2025-12-17T09:06:19+00:00"}
+{"type":"login","time":"2025-12-17 09:06:20","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T09:06:26+00:00"}
+{"type":"login","time":"2025-12-17 09:06:34","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","auto_ip":true}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T09:06:42+00:00"}
+{"type":"force_logout","staff_id":9,"ip":"175.157.139.159","session":"497b8b4507875e5a36269127d30c6e9b","time":"2025-12-17T09:06:42+00:00"}
+{"type":"login_request","time":"2025-12-17 09:07:04","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":19,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 09:08:01","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":20,"status":"pending"}
+{"type":"login_request","time":"2025-12-17 09:08:16","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":21,"status":"pending"}
+{"type":"approve_login","request_id":21,"approved_by":7,"time":"2025-12-17T09:08:44+00:00"}
+{"type":"login","time":"2025-12-17 09:08:49","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"login","time":"2025-12-17 09:14:04","staff_id":8,"name":"Staff User","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36 Edg\/143.0.0.0","status":"approved","auto_ip":true}
+{"type":"logout","staff_id":8,"time":"2025-12-17T09:14:48+00:00"}
+{"type":"login","time":"2025-12-17 09:15:19","staff_id":8,"name":"Staff User","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36 Edg\/143.0.0.0","status":"approved","auto_ip":true}
+{"type":"logout","staff_id":8,"time":"2025-12-17T09:15:32+00:00"}
+{"type":"login","time":"2025-12-17 09:16:07","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36 Edg\/143.0.0.0","status":"approved","auto_ip":true}
+{"type":"logout","staff_id":9,"time":"2025-12-17T09:16:18+00:00"}
+{"type":"login","time":"2025-12-17 09:16:25","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","auto_ip":true}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T09:16:31+00:00"}
+{"type":"force_logout","staff_id":9,"ip":"175.157.139.159","session":"497b8b4507875e5a36269127d30c6e9b","time":"2025-12-17T09:16:31+00:00"}
+{"type":"force_logout","staff_id":9,"ip":"175.157.139.159","session":"57767fc798f2a090472ec5b032357195","time":"2025-12-17T09:16:31+00:00"}
+{"type":"login_request","time":"2025-12-17 09:17:14","staff_id":8,"name":"Staff User","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36 Edg\/143.0.0.0","request_id":22,"status":"pending"}
+{"type":"approve_login","request_id":22,"approved_by":7,"time":"2025-12-17T09:17:25+00:00"}
+{"type":"login","time":"2025-12-17 09:17:30","staff_id":8,"name":"Staff User","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36 Edg\/143.0.0.0","status":"approved"}
+{"type":"login","time":"2025-12-17 09:40:11","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","auto_ip":true}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T09:41:39+00:00"}
+{"type":"force_logout","staff_id":9,"ip":"175.157.139.159","session":"497b8b4507875e5a36269127d30c6e9b","time":"2025-12-17T09:41:39+00:00"}
+{"type":"login_request","time":"2025-12-17 09:41:52","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":23,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 09:41:52","to":"nallathamilan01@gmail.com","request_id":23,"method":"mail","status":"sent"}
+{"type":"login_request","time":"2025-12-17 09:46:26","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":24,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 09:46:26","to":"nallathamilan01@gmail.com","request_id":24,"method":"mail","status":"sent"}
+{"type":"approve_login_blocked","request_id":24,"ip":"175.157.139.159","attempted_by":7,"time":"2025-12-17T09:49:02+00:00"}
+{"type":"approve_login","request_id":23,"approved_by":7,"time":"2025-12-17T09:49:09+00:00"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T09:49:12+00:00"}
+{"type":"login_request","time":"2025-12-17 09:49:23","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":25,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 09:49:23","to":"nallathamilan01@gmail.com","request_id":25,"method":"mail","status":"sent"}
+{"type":"login_request","time":"2025-12-17 09:49:32","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":26,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 09:49:33","to":"nallathamilan01@gmail.com","request_id":26,"method":"mail","status":"sent"}
+{"type":"approve_login","request_id":26,"approved_by":7,"time":"2025-12-17T09:54:49+00:00"}
+{"type":"login","time":"2025-12-17 09:54:52","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T09:54:54+00:00"}
+{"type":"approve_login","request_id":25,"approved_by":7,"time":"2025-12-17T09:54:58+00:00"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T09:55:01+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T09:55:16+00:00"}
+{"type":"login_request","time":"2025-12-17 09:55:24","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":27,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 09:55:24","to":"nallathamilan01@gmail.com","request_id":27,"method":"mail","status":"sent"}
+{"type":"approve_login","request_id":27,"approved_by":7,"time":"2025-12-17T10:01:02+00:00"}
+{"type":"login","time":"2025-12-17 10:01:04","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T10:01:10+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T10:01:14+00:00"}
+{"type":"login_request","time":"2025-12-17 10:01:21","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":28,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 10:01:21","to":"nallathamilan01@gmail.com","request_id":28,"method":"mail","status":"sent"}
+{"type":"approve_via_email","request_id":28,"ip":"175.157.139.159","time":"2025-12-17T10:01:33+00:00"}
+{"type":"login","time":"2025-12-17 10:01:37","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T10:02:03+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T10:02:13+00:00"}
+{"type":"login_request","time":"2025-12-17 10:02:20","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":29,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 10:02:21","to":"nallathamilan01@gmail.com","request_id":29,"method":"mail","status":"sent"}
+{"type":"approve_via_email","request_id":29,"ip":"175.157.139.159","time":"2025-12-17T10:02:49+00:00"}
+{"type":"login","time":"2025-12-17 10:02:51","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T10:03:26+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T10:03:31+00:00"}
+{"type":"login_request","time":"2025-12-17 10:03:37","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":30,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 10:03:38","to":"nallathamilan01@gmail.com","request_id":30,"method":"mail","status":"sent"}
+{"type":"approve_via_email","request_id":30,"ip":"175.157.139.159","time":"2025-12-17T10:04:04+00:00"}
+{"type":"login","time":"2025-12-17 10:04:07","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T10:05:36+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T10:05:42+00:00"}
+{"type":"login_request","time":"2025-12-17 10:05:55","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":31,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 10:05:55","to":"nagarasha.vithusan@gmail.com","request_id":31,"method":"mail","status":"sent"}
+{"type":"approve_via_email","request_id":31,"ip":"175.157.139.159","time":"2025-12-17T10:07:50+00:00"}
+{"type":"login","time":"2025-12-17 10:07:51","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T10:07:53+00:00"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T10:08:06+00:00"}
+{"type":"login_request","time":"2025-12-17 10:08:11","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":32,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 10:08:11","to":"nagarasha.vithusan@gmail.com","request_id":32,"method":"mail","status":"sent"}
+{"type":"reject_via_email","request_id":32,"time":"2025-12-17T10:08:31+00:00"}
+{"type":"logout","staff_id":7,"time":"2025-12-17T10:18:13+00:00"}
+{"type":"login_request","time":"2025-12-17 10:18:28","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":33,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 10:18:28","to":"nagarasha.vithusan@gmail.com","request_id":33,"method":"mail","status":"sent"}
+{"type":"login","time":"2025-12-17 10:18:51","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login","time":"2025-12-17 10:18:53","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"approve_login","request_id":33,"approved_by":7,"time":"2025-12-17T10:19:12+00:00"}
+{"type":"approve_login","request_id":33,"approved_by":7,"time":"2025-12-17T10:19:23+00:00"}
+{"type":"login","time":"2025-12-17 10:19:23","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T10:20:14+00:00"}
+{"type":"login","time":"2025-12-17 10:20:33","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","auto_ip":true}
+{"type":"logout","staff_id":9,"time":"2025-12-17T10:20:41+00:00"}
+{"type":"login","time":"2025-12-17 10:21:13","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login","time":"2025-12-17 10:21:19","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T10:22:00+00:00"}
+{"type":"force_logout","staff_id":9,"ip":"175.157.139.159","session":"07e1168251202426b07c6f4ae2062b22","time":"2025-12-17T10:22:00+00:00"}
+{"type":"login","time":"2025-12-17 10:22:34","staff_id":7,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login_request","time":"2025-12-17 10:23:20","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":34,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 10:23:20","to":"nagarasha.vithusan@gmail.com","request_id":34,"method":"mail","status":"sent"}
+{"type":"approve_login","request_id":34,"approved_by":7,"time":"2025-12-17T10:23:30+00:00"}
+{"type":"login","time":"2025-12-17 10:23:31","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T10:29:32+00:00"}
+{"type":"login","time":"2025-12-17 10:33:26","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","auto_ip":true}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T11:07:25+00:00"}
+{"type":"force_logout","staff_id":9,"ip":"175.157.139.159","session":"37681eb00534f2d7030f9b8c8e31c984","time":"2025-12-17T11:07:25+00:00"}
+{"type":"login_request","time":"2025-12-17 11:07:34","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","request_id":35,"status":"pending"}
+{"type":"approval_email","time":"2025-12-17 11:07:34","to":"nagarasha.vithusan@gmail.com","request_id":35,"method":"mail","status":"sent"}
+{"type":"approve_login","request_id":35,"approved_by":7,"time":"2025-12-17T11:07:51+00:00"}
+{"type":"login","time":"2025-12-17 11:07:53","staff_id":9,"name":"lingajan","ip":"175.157.139.159","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved"}
+{"type":"unapprove_ip","ip":"175.157.139.159","unapproved_by":7,"time":"2025-12-17T11:07:56+00:00"}
+{"type":"logout","staff_id":9,"time":"2025-12-17T11:08:39+00:00"}
+{"type":"login","time":"2025-12-19 09:24:42","staff_id":7,"name":"lingajan","ip":"111.223.176.194","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login","time":"2025-12-19 10:37:09","staff_id":7,"name":"lingajan","ip":"111.223.176.194","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login","time":"2025-12-19 11:41:41","staff_id":7,"name":"lingajan","ip":"111.223.176.194","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login","time":"2025-12-23 05:41:45","staff_id":7,"name":"lingajan","ip":"175.157.46.232","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login","time":"2025-12-26 09:45:27","staff_id":7,"name":"lingajan","ip":"111.223.182.86","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login","time":"2025-12-26 09:47:18","staff_id":7,"name":"lingajan","ip":"111.223.182.86","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}
+{"type":"login","time":"2025-12-26 11:44:49","staff_id":7,"name":"lingajan","ip":"111.223.182.86","device":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36","status":"approved","role":"admin"}

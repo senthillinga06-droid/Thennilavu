@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse Heart Trail</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      background: #111;
+      cursor: none; /* optional: hides the default cursor */
+    }
+    /* .heart {
+      position: absolute;
+      color: red;
+      font-size: 16px;
+      pointer-events: none;
+      animation: fade 1s forwards;
+    }
+
+    @keyframes fade {
+      0% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(2);
+      }
+    } */
+.heart {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  pointer-events: none;
+  animation: floatUp 3s ease-out forwards;
+  opacity: 1;
+  z-index: 9999;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-20px, -200px) scale(1.5);
+    opacity: 0;
+  }
+}
+    
+  </style>
+</head>
+<body>
+
+
+<script>
+  // document.addEventListener("mousemove", function(e) {
+  //   const heart = document.createElement("div");
+  //   heart.className = "heart";
+  //   heart.style.left = e.pageX + "px";
+  //   heart.style.top = e.pageY + "px";
+  //   heart.innerHTML = "❤️";
+  //   document.body.appendChild(heart);
+
+  //   setTimeout(() => {
+  //     heart.remove();
+  //   }, 1000);
+  // });
+
+
+  document.addEventListener("mousemove", function(e) {
+  const heart = document.createElement("div");
+  heart.className = "heart";
+  heart.innerHTML = "❤️";
+
+  // Random left/right drift
+  const driftX = Math.random() * 40 - 20; // -20 to +20px
+  const scale = 1 + Math.random(); // Scale 1–2
+  const duration = 2 + Math.random() * 2; // 2–4s duration
+
+  heart.style.left = e.pageX + "px";
+  heart.style.top = e.pageY + "px";
+  heart.style.transform = `translate(0, 0) scale(${scale})`;
+  heart.style.animationDuration = `${duration}s`;
+
+  document.body.appendChild(heart);
+
+  setTimeout(() => {
+    heart.remove();
+  }, duration * 1000);
+});
+
+</script>   
+</body>
+</html>
